@@ -293,7 +293,7 @@ th {
     background-color: rgba(76, 175, 80, 0.7); /* Halbdurchsichtiger Hintergrund */
     justify-content: center;
     align-items: center;
-    transform: translate(13%, -110%); /* Exakte Zentrierung */
+    transform: translate(24%, -115%); /* Exakte Zentrierung */
     transition: 0.2s;
 }
 
