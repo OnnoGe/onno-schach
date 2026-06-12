@@ -100,14 +100,18 @@ if (isset($_GET["active_piece"])){
                         console.log("Moin");
                         const name1 = document.getElementById("name1").value.trim();
                         const name2 = document.getElementById("name2").value.trim();
+                        console.log(name1, name2);
                         if (name1 === "") {
                             document.getElementById("name1").style.backgroundColor = "red";
                             return;
+                            console.log("name1 wrong");
                         }
                         if (name2 === "") {
                             document.getElementById("name2").style.backgroundColor = "red";
                             return;
+                            console.log("name2 wrong");
                         }
+                        console.log("opening", "/?name1=" + encodeURIComponent(name1) + "&name2=" + encodeURIComponent(name2), "_self");
                         window.open("/?name1=" + encodeURIComponent(name1) + "&name2=" + encodeURIComponent(name2), "_self");
                     }
 
