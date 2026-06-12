@@ -287,13 +287,13 @@ th {
 
 .overlay {
     position: absolute;
-    width: 50px; /* Feste Breite */
-    height: 50px; /* Feste Höhe */
-    border-radius: 25px; /* Runde Ecken */
+    width: 60px; /* Feste Breite */
+    height: 60px; /* Feste Höhe */
+    border-radius: 30px; /* Runde Ecken */
     background-color: rgba(76, 175, 80, 0.7); /* Halbdurchsichtiger Hintergrund */
     justify-content: center;
     align-items: center;
-    transform: translate(24%, -115%); /* Exakte Zentrierung */
+    transform: translate(6px, -64px)); /* Exakte Zentrierung */
     transition: 0.2s;
 }
 
