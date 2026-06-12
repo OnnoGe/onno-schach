@@ -298,11 +298,5 @@ th {
 }
 
 .overlay:hover {
-    position: absolute;
-    width: 55px; /* Feste Breite */
-    height: 55px; /* Feste Höhe */
-    border-radius: 27.5px; /* Runde Ecken */
-    background-color: rgba(76, 175, 80, 0.7); /* Halbdurchsichtiger Hintergrund */
-    justify-content: center;
-    align-items: center;
+    transform: scale(1.05);
 }
