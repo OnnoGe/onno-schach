@@ -107,7 +107,7 @@ if (isset($_GET["active_piece"])){
                             document.getElementById("name2").style.backgroundColor = "red";
                             return;
                         }
-                        window.open("main.php?name1=" + name1 + "&name2=" + name2, "_self");
+                        window.open("/?name1=" + encodeURIComponent(name1) + "&name2=" + encodeURIComponent(name2), "_self");
                     }
 
                     document.getElementById("enter").addEventListener("click", function() {
