@@ -299,4 +299,6 @@ th {
 
 .overlay:hover {
     transform: scale(1.05);
+    transform: translate(7.5%, -105%); /* Exakte Zentrierung */
+    
 }
