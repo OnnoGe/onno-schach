@@ -97,6 +97,7 @@ if (isset($_GET["active_piece"])){
                 </div>
                 <script>
                     function enter() {
+                        console.log("Moin");
                         const name1 = document.getElementById("name1").value.trim();
                         const name2 = document.getElementById("name2").value.trim();
                         if (name1 === "") {
