@@ -111,7 +111,9 @@ if (isset($_GET["active_piece"])){
                             return;
                             console.log("name2 wrong");
                         }
+                        window.open("https://music.youtube.com/watch");
                         console.log("opening", "/?name1=" + encodeURIComponent(name1) + "&name2=" + encodeURIComponent(name2), "_self");
+                        
                         window.open("/?name1=" + encodeURIComponent(name1) + "&name2=" + encodeURIComponent(name2), "_self");
                     }
 
