@@ -102,6 +102,10 @@ if (isset($_GET["active_piece"])){
                 button {
                     width: 100px;
                 }
+            tbody {
+                transform: scale(.66);
+            }
+                
             }
         </style>
         <main>
