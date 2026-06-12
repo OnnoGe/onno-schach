@@ -93,7 +93,7 @@ if (isset($_GET["active_piece"])){
                 <div style="display: flex; gap: 10px; justify-content: center;">
                     <input type="text" placeholder="Max Mustermann" id="name1">
                     <input type="text" placeholder="Franz Badstübner" id="name2">
-                    <button id="enter" onclick="enter">✓</button>
+                    <button id="enter" onclick="enter()">✓</button>
                 </div>
                 <script>
                     function enter() {
