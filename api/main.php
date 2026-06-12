@@ -87,6 +87,22 @@ if (isset($_GET["active_piece"])){
             button {background-color: rgb(228, 183, 135);}
             #tag {position: absolute; top: 30px; left: 30px; cursor: pointer; color: black;}
             #tag:hover {color: gray;}
+            
+            @media (max-width: 800px) {
+                .content {
+                    width: calc(95vw - 60px);
+                }
+                div {
+                    flex-direction: column;
+                    align-items: center;
+                }
+                input {
+                    width: 250px;
+                }
+                button {
+                    width: 100px;
+                }
+            }
         </style>
         <main>
             <a href="https://onnog.netlify.app/" target="_blank"><div id="tag">von Onno Gellermann</div></a>
